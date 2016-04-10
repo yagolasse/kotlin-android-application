@@ -1,4 +1,4 @@
-package com.tksd.saveyourmemories;
+package com.tksd.kotlinandroidexample;
 
 import org.junit.Test;
 

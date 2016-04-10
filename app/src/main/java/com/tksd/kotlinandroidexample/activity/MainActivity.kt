@@ -1,4 +1,4 @@
-package com.tksd.saveyourmemories.activity
+package com.tksd.kotlinandroidexample.activity
 
 import android.content.res.Configuration
 import android.os.Bundle
@@ -8,14 +8,16 @@ import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.Toolbar
-import android.util.Log
 import android.view.View
 import android.widget.Toast
-import com.tksd.saveyourmemories.R
-import com.tksd.saveyourmemories.adapter.NavDrawerAdapter
+import com.tksd.kotlinandroidexample.R
+import com.tksd.kotlinandroidexample.adapter.NavDrawerAdapter
 
 class MainActivity : AppCompatActivity(), NavDrawerAdapter.OnItemClickListener {
 
+    /**
+     * this fields are used to fill the options of the nav drawer
+     */
     private val titles = arrayOf("Home", "Events", "Mail", "Shop", "Travel")
 
     private val icons = intArrayOf(
@@ -26,6 +28,9 @@ class MainActivity : AppCompatActivity(), NavDrawerAdapter.OnItemClickListener {
             R.drawable.ic_card_travel_black_24dp
     )
 
+    /**
+     * this fields are used to fill the header of the nav drawer
+     */
     private val name = "User name"
     private val email = "user@email.com"
     private val profile = R.mipmap.ic_launcher

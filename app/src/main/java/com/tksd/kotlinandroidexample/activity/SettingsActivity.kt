@@ -1,9 +1,9 @@
-package com.tksd.saveyourmemories.activity
+package com.tksd.kotlinandroidexample.activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-import com.tksd.saveyourmemories.R
+import com.tksd.kotlinandroidexample.R
 
 class SettingsActivity : AppCompatActivity() {
 

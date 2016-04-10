@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tksd.saveyourmemories">
+    package="com.tksd.kotlinandroidexample">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".activity.SplashActivity"
+            android:name="com.tksd.kotlinandroidexample.activity.SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,10 +20,10 @@
         </activity>
 
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.tksd.kotlinandroidexample.activity.MainActivity"
             android:configChanges="orientation|screenSize" />
 
-        <activity android:name=".activity.SettingsActivity" />
+        <activity android:name="com.tksd.kotlinandroidexample.activity.SettingsActivity" />
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.tksd.saveyourmemories;
+package com.tksd.kotlinandroidexample;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

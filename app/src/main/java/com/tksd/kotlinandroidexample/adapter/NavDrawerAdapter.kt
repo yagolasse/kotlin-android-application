@@ -1,4 +1,4 @@
-package com.tksd.saveyourmemories.adapter
+package com.tksd.kotlinandroidexample.adapter
 
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import com.tksd.saveyourmemories.R
+import com.tksd.kotlinandroidexample.R
 
 /**
  * Created by Yago on 09/04/2016.
@@ -32,7 +32,7 @@ class NavDrawerAdapter(var navTitles: Array<String>?, var icons: IntArray?, var 
         var email: TextView? = null
 
         init {
-            if (viewType === TYPE_ITEM) {
+            if (viewType == TYPE_ITEM) {
                 textView = itemView.findViewById(R.id.drawer_row_item_text) as TextView
                 imageView = itemView.findViewById(R.id.drawer_row_item_icon) as ImageView
                 holderId = TYPE_ITEM
