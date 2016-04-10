@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Save Your Memories</string>
+    <string name="openDrawer">Open</string>
+    <string name="closeDrawer">Close</string>
+</resources>
