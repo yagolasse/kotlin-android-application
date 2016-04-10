@@ -26,8 +26,8 @@ class MainActivity : AppCompatActivity(), NavDrawerAdapter.OnItemClickListener {
             R.drawable.ic_card_travel_black_24dp
     )
 
-    private val name = "Yago Ferreira"
-    private val email = "yago@email.com"
+    private val name = "User name"
+    private val email = "user@email.com"
     private val profile = R.mipmap.ic_launcher
 
     override fun onCreate(savedInstanceState: Bundle?) {

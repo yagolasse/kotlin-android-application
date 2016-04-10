@@ -17,29 +17,29 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/name"
+            android:id="@+id/drawer_header_user_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:text="Akash Bangad"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:text="user name"
             android:textColor="#ffffff"
             android:textSize="14sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/email"
+            android:id="@+id/drawer_header_user_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_marginTop="5dp"
-            android:text="akash.bangad93@gmail.com"
+            android:text="user@gmail.com"
             android:textColor="#ffffff"
             android:textSize="14sp"
             android:textStyle="normal" />
     </LinearLayout>
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/circleView"
+        android:id="@+id/drawer_header_user_image"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginLeft="16dp"

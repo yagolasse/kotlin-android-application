@@ -25,12 +25,12 @@
             android:paddingTop="@dimen/activity_vertical_margin">
 
             <FrameLayout
-                android:id="@+id/listcontainer"
+                android:id="@+id/list_container"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
             <FrameLayout
-                android:id="@+id/detailscontainer"
+                android:id="@+id/details_container"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:visibility="gone" />

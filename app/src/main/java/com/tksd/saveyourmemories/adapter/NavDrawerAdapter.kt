@@ -37,9 +37,9 @@ class NavDrawerAdapter(var navTitles: Array<String>?, var icons: IntArray?, var 
                 imageView = itemView.findViewById(R.id.drawer_row_item_icon) as ImageView
                 holderId = TYPE_ITEM
             } else {
-                name = itemView.findViewById(R.id.name) as TextView
-                email = itemView.findViewById(R.id.email) as TextView
-                profile = itemView.findViewById(R.id.circleView) as ImageView
+                name = itemView.findViewById(R.id.drawer_header_user_name) as TextView
+                email = itemView.findViewById(R.id.drawer_header_user_email) as TextView
+                profile = itemView.findViewById(R.id.drawer_header_user_image) as ImageView
                 holderId = TYPE_HEADER
             }
             itemView.setOnClickListener { onItemClickListener?.onItemClick(itemView, layoutPosition) }
